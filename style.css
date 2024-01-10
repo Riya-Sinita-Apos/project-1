@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color:white;
+}
+
+.home_header {
+    background-color: lightgrey;
+    display: flex;
+    margin: 0cap;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px black;
+    margin-top: 10px;
+}
+
+.admin-buto {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+header img {
+    width: 50px;
+    height: 45px;
+    border-radius: 18px;
+
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.home_main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 70%;
+    margin: 20px 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 2px black;
+    flex-direction: column;
+    border-radius: 6px;
+    text-align: center;
+    gap: 20px;
+}
+
+.box {
+    width: 500px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: grey;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.box h1 {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.box form {
+    display: flex;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+#usn {
+    padding: 5px 10px;
+    width: 200px;
+    box-shadow: 1px 2px 2px black;
+    border-radius: 7px;
+
+}
+
+.btn1 {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.dash_header {
+    width:100%;
+    height:80%;
+    background-color:gainsboro;
+    box-shadow: 5px 5px 5px black;
+
+    border-radius: 20px;
+}
+.dash_header h1{
+    margin:10px;
+   
+}
+.dash_header nav{
+    text-align: center;
+    margin-top:100px;
+    display: flex;
+    justify-content: space-between;
+}
+.dash_header button{
+    width:300px;
+    height:150px;
+    box-shadow: 1px 2px 2px black;
+    border-radius: 20px;
+    color:black;
+   font-weight:800;
+    font-size:80;
+}
+.box1{
+    background-color: bisque;
+}
+.box2{
+    background-color: cadetblue;
+}
+.box3{
+    background-color:brown
+}
+.box4{
+    background-color: darkmagenta;
+}
+.student_header{
+    width: 100;
+    height:90%;
+    background-color:red;
+}
