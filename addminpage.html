@@ -10,21 +10,20 @@
     <header class="home_header">
     <div>
        <img src="https://th.bing.com/th/id/OIP.n5ZapKTLph9iK23V4q029wAAAA?rs=1&pid=ImgDetMain" alt="error">
-    </div> 
-    <div>
-        <a href="/addminpage.html">
-       <button class="admin-buto">Admin</button></a>
-    </div> 
+    </div>  
 </header>
 <main class="home_main">
-    <h1 class="caps"> RSA Institute of Technology Results </h1>
+    <h1 class="caps">Addmin Login</h1>
     <div  class="box">
-        <h1>Examination Results</h1>
+        <h1>Login</h1>
         <form>
-            <input type="text" id="usn" placeholder="Enter USN">
-            <input type="submit" class="btn1" value="Submit">
+            <input type="text" id="username" placeholder="Enter Username">
+            <input type="password" id="password" placeholder="Enter Password">
+            <button type="button" class="btn1" onclick="addminLogin()">Login</button>
         </form>
+        <p id="errorMessage"></p>
     </div>
 </main>
+<script src="script.js"></script>
 </body>
 </html>
