@@ -152,8 +152,10 @@ header img {
     height:45px;
     background-color:black;
     color: aliceblue;
+    font-size:900;
     border-radius: 10px;
    padding: 10px;
+   font-weight:400;
    font-family:'Times New Roman', Times, serif;
 }
 #search{
@@ -212,21 +214,4 @@ tbody{
    display:block
   
    
-}
-#username{
-    padding: 5px 10px;
-    width: 200px;
-    height:40px;
-    box-shadow: 1px 2px 2px black;
-    border-radius: 7px;
-    font-size: large;
-
-}
-#password{
-    padding: 5px 10px;
-    width: 200px;
-    height:40px;
-    box-shadow: 1px 2px 2px black;
-    border-radius: 7px;
-    font-size: larger;
 }
